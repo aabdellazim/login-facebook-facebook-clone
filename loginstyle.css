@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+body{
+    background-color: #f1f2f6;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.left{
+    margin-right: 70px;
+    margin-top: -120px;
+}
+.lefth{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #1977f3;
+}
+.leftp{
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    border: 1px solid;
+    border-style:none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+}
+.text{
+    position: absolute;
+    width: 320px;
+    height: 35px;
+    border-radius: 5px;
+    border:1px solid gray;
+    outline: none;
+    top: 20px;
+    left: 15px;
+    padding-left:15px ;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.pass{
+    position: absolute;
+    width: 320px;
+    height: 35px;
+    border-radius: 5px;
+    border:1px solid gray;
+    outline: none;
+    top: 70px;
+    left: 15px;
+    padding-left:15px ;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.button{
+    position: absolute;
+    top: 123px;
+    left: 15px;
+    width: 320px;
+    height: 44px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    background-color:#1977f3;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.rightp{
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    font-size: 15px;
+    color: #1977f3;
+}
+.hr{
+    position: absolute;
+    top: 215px;
+    left: 13px;
+    width: 322px;
+}
+.button1{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    width: 160px;
+    height: 44px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    background-color:#42b72a;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.rightpp{
+    margin-top: 30px;
+    margin-left: 28px;
+}
